@@ -22,11 +22,7 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 ```
-4. Collect static
-```
-python manage.py collectstatic
-```
-5. Run server
+4. Run server
 ```
 python manage.py runserver
 ```
