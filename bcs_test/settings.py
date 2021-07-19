@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'bcs_db',
         'USER' : 'postgres',
         'PASSWORD' : '94286130Sup',
-        'HOST' : '127.0.0.1',
+        'HOST' : 'db',
         'PORT' : '5432',
     }
 }
