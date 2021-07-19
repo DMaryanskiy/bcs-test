@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'bcs_db',
         'USER' : 'postgres',
         'PASSWORD' : '94286130Sup',
-        'HOST' : 'db',
+        'HOST' : 'bcs-task-maryanskiy.herokuapp.com',
         'PORT' : '5432',
     }
 }
