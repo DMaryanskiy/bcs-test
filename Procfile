@@ -1,1 +1,1 @@
-web: gunicorn bcs_test.bcs_tes.wsgi
+web: gunicorn bcs_test.bcs_test.wsgi
