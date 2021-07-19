@@ -26,3 +26,8 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+5. Get data from side API.
+In case you need to get another data from API use this command
+```
+python manage.py blocks
+```
