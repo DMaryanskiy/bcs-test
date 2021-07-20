@@ -1,4 +1,5 @@
 import requests
+import datetime
 from django.core.management.base import BaseCommand
 
 from ...models import Blockchain_blocks
@@ -14,7 +15,7 @@ class Command(BaseCommand):
             block_data = Blockchain_blocks(
                 height = block["height"],
                 hash = block["hash"],
-                timestamp = block["timestamp"],
+                timestamp = datetime.datetime.fromtimestamp(block["timestamp"]).strftime("%Y-%m-%d %H:%M:%S"),
                 miner = block["miner"],
                 transactionCount = block["transactionCount"],
             )
